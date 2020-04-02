@@ -144,7 +144,7 @@ void InitQueue(int size){
 
 ​     QSize = size + 1;
 
-​     Queue = (**int***)malloc(QSize * **sizeof**(**int**));
+​     Queue = (int*)malloc(QSize * sizeof(int));
 
 ​     head = tail = 0;
 
