@@ -77,57 +77,58 @@
 
 - 스택(Stack)에 대해 설명하고 예제소스를 구현해봐라
 
-  - 위의 참고
 
-**#include **  
+- - 위의 참고
+~~~c++
 
-**int*** Stack;
 
-**int** Size;
+#include   
 
-**int** Top;   
+int *Stack;
+int Size;
+int Top;   
 
-**void** InitStack(**int** aSize){
+void InitStack(int aSize){
 
 ​     Size = aSize;
 
-​     Stack = (**int***)malloc(Size * **sizeof**(**int**));
+​     Stack = (int*)malloc(Size * sizeof(int));
 
 ​     Top -= 1;
 
 }
 
-**bool** Push(**int** data){
+bool Push(int data){
 
-​     **if** (Top < Size - 1){
+​     if (Top < Size - 1){
 
 ​         Top++;
 
 ​         Stack[Top] = data;
 
-​         **return** **true**;
+​         return true;
 
-​     }**else**
+​     }else
 
-​         **return** **false**;
-
-}
-
-**int** Pop(){
-
-​     **if** (Top >= 0)
-
-​         **return** Stack[Top--];
-
-​     **else**
-
-​         **return** -1;
+​         return false;
 
 }
 
-**void** FreeStack() { free(Stack); }
+int Pop(){
 
-**void** main(){
+​     if (Top >= 0)
+
+​         return Stack[Top--];
+
+​     else
+
+​         return -1;
+
+}
+
+void FreeStack() { free(Stack); }
+
+void main(){
 
 ​     InitStack(256);
 
@@ -137,85 +138,85 @@
 
 ​     Push(6);
 
-​     **while** (Top != -1)
+​     while (Top != -1)
 
 ​         printf("%d\n", Pop());
 
 } 
+~~~
 
 - 큐(Queue)에 대해 설명하고 예제소스를 구현해보아라
 
 - - 위의 참고
+~~~c++
 
-**#include **
+#include 
 
-**int** *Queue;
+int *Queue;
+int QSize;
+int head, tail;
 
-**int** QSize;
-
-**int** head, tail;
-
-**void** InitQueue(**int** size){
+void InitQueue(int size){
 
 ​     QSize = size + 1;
 
-​     Queue = (**int***)malloc(QSize * **sizeof**(**int**));
+​     Queue = (int*)malloc(QSize * sizeof(int));
 
 ​     head = tail = 0;
 
 }
 
-**bool** EnQueue(**int** data){
+bool EnQueue(int data){
 
-​     **if** ((tail + 1) % QSize == head)
+​     if ((tail + 1) % QSize == head)
 
-​         **return** **false**;
+​         return false;
 
 ​     Queue[tail] = data;
 
 ​     tail = (tail + 1) % QSize;
 
-​     **return** **true**;
+​     return true;
 
 }
 
-**int** DeQueue(){
+int DeQueue(){
 
-​     **int** data;
+​     int data;
 
-​     **if** (head == tail)
+​     if (head == tail)
 
-​         **return** -1;
+​         return -1;
 
 ​     data = Queue[head];
 
 ​     head = (head + 1) % QSize;
 
-​     **return** data;
+​     return data;
 
 }
 
-**void** FreeQueue() { free(Queue); }
+void FreeQueue() { free(Queue); }
 
-**void** main(){
+void main(){
 
 ​     InitQueue(10);
 
 ​     printf("빈 상태에서 삭제 할 때 = %d\n", DeQueue());
 
-​     **for** (**int** i = 0; i < 10; i++)
+​     for (**int** i = 0; i < 10; i++)
 
 ​         EnQueue(i);
 
 ​     printf("가득 찬 상태에서 삽입 %s \n", EnQueue(100) ? "성공" : "실패");
 
-​     **for** (**int** i = 0; i < 10; i++)
+​     for int i = 0; i < 10; i++)
 
 ​         printf("%d ", DeQueue());      FreeQueue();
 
 } 
 
-
+~~~c
 
 - 덱(Deque)에 대해 설명하고 예제소스를 구현해보아라
 
@@ -225,6 +226,7 @@
 
 ### Reference
 
+
 * https://91ms.tistory.com/3
 * https://devuna.tistory.com/22
 * https://mygumi.tistory.com/357
@@ -232,3 +234,5 @@
 * https://reakwon.tistory.com/30
 * https://blessldk.blogspot.com/2015/01/queue.html
 * http://www.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS3942847236
+* https://blessldk.blogspot.com/2015/01/queue.html
+
