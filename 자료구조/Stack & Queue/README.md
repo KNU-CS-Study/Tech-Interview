@@ -35,7 +35,7 @@
   - **rear** : **가장 뒤 element** 를 가리킨다.
 - 선형 자료구조의 일종으로 **FIFO(First In First Out)** : 먼저 들어간 원소가 먼저 나온다.
 - 종류
-- - 선형큐 : 기본적인 큐의 형태, 큐에 빈 메모리가 남아 있어도 꽉 차있는것으로 판단 가능
+  - 선형큐 : 기본적인 큐의 형태, 큐에 빈 메모리가 남아 있어도 꽉 차있는것으로 판단 가능
   - 원형큐 : 선형큐의 문제를 해결, 메모리 공간은 잘 활용하나 배열로 구현되어 있어서 큐의 크기가 제한됨
   - 링크드리스트 큐 : 큐의 크기가 제한이 없고 삽입, 삭제가 편리하다.
   - 우선순위 큐 : 데이터의 우선순위에 따라 우선순위가 높은 데이터부터 꺼내도록 만들어진 큐
@@ -64,7 +64,7 @@
   - 앞과 뒤에서 삽입과 삭제가 좋다.
   - 중간에 데이터를 삽입하고 삭제하는것은 용이하지가 않다.
   - 원하는 요소에 바로 접근이 가능하다.
-- - 스크롤(scroll) : 입력이 한쪽 끝으로만 가능하도록 제한한 덱
+  - 스크롤(scroll) : 입력이 한쪽 끝으로만 가능하도록 제한한 덱
   - 셸프(shelf) : 출력이 한쪽 끝으로만 가능하도록 제한한 덱
 
 
@@ -74,14 +74,23 @@
 - 스택으로 큐을 구현할 수 있을까?
 
   - 두개의 스택을 활용하여 가능하다.
-
+- Stack을 구현할 때, 배열과 연결리스트의 차이
+  - 배열 
+    - 장점 : 빠른 접근, 구현이 쉽다.
+    - 단점 : 최대사이즈가 제한적이다.
+  - 연결리스트
+    - 장점 : 공간의 제한이 없다.
+    - 단점 구현이 어렵다.
+- 스택을 활용한 계산기 구현
+  1. 중위표기법 - > 후위표기법
+  2. 후위표기법  -> 계산.
 - 스택(Stack)에 대해 설명하고 예제소스를 구현해봐라
+- Circular queue(환형 큐) realloc 하는 방법알기(사이즈 확장).
 
 
-- - 위의 참고
+- 위의 참고
+
 ~~~c++
-
-
 #include   
 
 int *Stack;
@@ -90,39 +99,39 @@ int Top;
 
 void InitStack(int aSize){
 
-​     Size = aSize;
+     Size = aSize;
 
-​     Stack = (int*)malloc(Size * sizeof(int));
+     Stack = (int*)malloc(Size * sizeof(int));
 
-​     Top -= 1;
+     Top -= 1;
 
 }
 
 bool Push(int data){
 
-​     if (Top < Size - 1){
+     if (Top < Size - 1){
 
-​         Top++;
+         Top++;
 
-​         Stack[Top] = data;
+         Stack[Top] = data;
 
-​         return true;
+         return true;
 
-​     }else
+     }else
 
-​         return false;
+         return false;
 
 }
 
 int Pop(){
 
-​     if (Top >= 0)
+     if (Top >= 0)
 
-​         return Stack[Top--];
+         return Stack[Top--];
 
-​     else
+     else
 
-​         return -1;
+         return -1;
 
 }
 
@@ -130,26 +139,26 @@ void FreeStack() { free(Stack); }
 
 void main(){
 
-​     InitStack(256);
+     InitStack(256);
 
-​     Push(7);
+     Push(7);
 
-​     Push(0);
+     Push(0);
 
-​     Push(6);
+     Push(6);
 
-​     while (Top != -1)
+     while (Top != -1)
 
-​         printf("%d\n", Pop());
+         printf("%d\n", Pop());
 
 } 
 ~~~
 
 - 큐(Queue)에 대해 설명하고 예제소스를 구현해보아라
 
-- - 위의 참고
-~~~c++
+- 위의 참고
 
+~~~c++
 #include 
 
 int *Queue;
@@ -158,41 +167,41 @@ int head, tail;
 
 void InitQueue(int size){
 
-​     QSize = size + 1;
+     QSize = size + 1;
 
-​     Queue = (int*)malloc(QSize * sizeof(int));
+     Queue = (int*)malloc(QSize * sizeof(int));
 
-​     head = tail = 0;
+     head = tail = 0;
 
 }
 
 bool EnQueue(int data){
 
-​     if ((tail + 1) % QSize == head)
+     if ((tail + 1) % QSize == head)
 
-​         return false;
+         return false;
 
-​     Queue[tail] = data;
+     Queue[tail] = data;
 
-​     tail = (tail + 1) % QSize;
+     tail = (tail + 1) % QSize;
 
-​     return true;
+     return true;
 
 }
 
 int DeQueue(){
 
-​     int data;
+     int data;
 
-​     if (head == tail)
+     if (head == tail)
 
-​         return -1;
+         return -1;
 
-​     data = Queue[head];
+     data = Queue[head];
 
-​     head = (head + 1) % QSize;
+     head = (head + 1) % QSize;
 
-​     return data;
+     return data;
 
 }
 
@@ -200,27 +209,26 @@ void FreeQueue() { free(Queue); }
 
 void main(){
 
-​     InitQueue(10);
+     InitQueue(10);
 
-​     printf("빈 상태에서 삭제 할 때 = %d\n", DeQueue());
+     printf("빈 상태에서 삭제 할 때 = %d\n", DeQueue());
 
-​     for (**int** i = 0; i < 10; i++)
+     for (**int** i = 0; i < 10; i++)
 
-​         EnQueue(i);
+         EnQueue(i);
 
-​     printf("가득 찬 상태에서 삽입 %s \n", EnQueue(100) ? "성공" : "실패");
+     printf("가득 찬 상태에서 삽입 %s \n", EnQueue(100) ? "성공" : "실패");
 
-​     for int i = 0; i < 10; i++)
+     for int i = 0; i < 10; i++)
 
-​         printf("%d ", DeQueue());      FreeQueue();
+         printf("%d ", DeQueue());      FreeQueue();
 
 } 
-
-~~~c
+~~~
 
 - 덱(Deque)에 대해 설명하고 예제소스를 구현해보아라
 
-- - 위의 참고
+- 위의 참고
 
 
 
