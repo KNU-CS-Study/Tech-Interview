@@ -113,3 +113,7 @@ UDP의 장점?? 실시간 응용 및 멀티캐스팅 가능 (빠른 요청과 �
 - 오류검출(error detection)과 재전송(retransmisstion)
 - ARQ(Automatic Repeat Request) : 신뢰성 있는 데이터 전달을 위해 재전송을 기반으로 한 에러 제어 방식
 - 기법 : 정지-대기 ARQ
+
+### 참고
+https://goodgid.github.io/Error-Flow-Control/
+https://shlee0882.tistory.com/110
