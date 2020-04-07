@@ -115,5 +115,5 @@ UDP의 장점?? 실시간 응용 및 멀티캐스팅 가능 (빠른 요청과 �
 - 기법 : 정지-대기 ARQ
 
 ### 참고
-https://goodgid.github.io/Error-Flow-Control/
+https://goodgid.github.io/Error-Flow-Control/ <br>
 https://shlee0882.tistory.com/110
