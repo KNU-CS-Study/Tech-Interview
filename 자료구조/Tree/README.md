@@ -212,6 +212,10 @@ BST 에는 **데이터를 저장하는 규칙**이 있다.
   * 사이클 : 사이클이 발생하지 않는다.
   * 한개의 루트노드, 부모 자식개념이 존재
 
+### 3. 2018 카카오 필기문제
+
+![image](https://user-images.githubusercontent.com/41226017/79304594-aadb2a80-7f2c-11ea-918e-088d0c749ed5.png)
+
 
 Reference
 
