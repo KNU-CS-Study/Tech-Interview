@@ -38,6 +38,7 @@ public class Garbage {
 
 ![image](https://user-images.githubusercontent.com/36303777/79490892-8bd9b700-8058-11ea-880c-dc1095f90568.png)
 
+
 문자열 더하기 연산이 수행되는 과정에서(String은 불변객체 이므로) 기존에 있던 "asdf"스트링에 "qwer"을 덧붙이는 것이 아니라, 문자열에 대한 더하기 연산이 수행된 결과가 새롭게 heap영역에 할당된다.
 
 
