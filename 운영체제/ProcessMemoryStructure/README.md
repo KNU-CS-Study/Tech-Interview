@@ -78,3 +78,9 @@ int function(int a){
 
 스택 영역은 메모리의 높은 주소에서 낮은 주소의 방향으로 할당된다.
 
+
+
+### References
+
+* https://velog.io/@pa324/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0-18k3jfidll
+* http://tcpschool.com/c/c_memory_structure
