@@ -1,4 +1,4 @@
-# 이중연산 모드(Dual-mode Operation)
+# 이중 동작 모드(Dual-mode Operation)
 
 ## 이중 동작 모드란?
 
@@ -9,7 +9,7 @@
 두가지 모드로 나누어진다
 
 - **커널모드** 
-  - 수퍼바이저 모드(supervisor mode), 시스템 모드(system mode, 특권모드(privileged mode) 로도 불리운다.
+  - 수퍼바이저 모드(supervisor mode), 시스템 모드(system mode), 특권모드(privileged mode) 로도 불리운다.
   - 운영체제를 위한 동작을 담당.
   - 시스템의 **모든 메모리에 접근** 할 수 있고 **모든 CPU명령을 실행** 할 수 있다.
   - 운영체제 코드나 디바이스 드라이버 같은 커널모드 코드를 실행한다.
