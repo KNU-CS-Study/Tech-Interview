@@ -1,9 +1,5 @@
 # 컬렉션 프레임워크
 
-
-
-
-
 ## 컬렉션 프레임 워크란?
 
 자바에서 컬렉션 프레임워크란 **다수의 데이터를 쉽고 효과적으로 처리할 수 있는 표준화된 방법을 제공하는 클래스의 집합**을 의미합니다.
@@ -13,6 +9,14 @@
 즉, 데이터를 저장하는 자료 구조와 데이터를 처리하는 알고리즘을 구조화 하여 클래스로 구현해 놓은 것입니다.
 
 이러한 컬렉션 프레임워크는 `자바의 인터페이스(interface)를 사용하여 구현`됩니다.
+
+
+
+#### 주요 인터페이스 간의 상속 관계
+
+![주요인터페이스상속관계](http://tcpschool.com/lectures/img_java_collection_interface_diagram.png)
+
+이중에서 List와 Set 인터페이스는 모두 Collection 인터페이스를 상속받지만, 구조상의 차이로 인해 Map 인터페이스에 별도로 정의된다.
 
 
 
@@ -149,3 +153,4 @@
 * https://deftkang.tistory.com/49
 * https://lalwr.blogspot.com/2016/02/collection-framework.html
 * https://palpit.tistory.com/656
+* http://tcpschool.com/java/java_collectionFramework_concept
