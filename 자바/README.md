@@ -8,6 +8,7 @@
 * [JVM](./JVM/README.md)
 * [제어자](./Modifier/README.md)
 * [OOP](./OOP/README.md)
+* [Immutable 클래스](https://github.com/KNU-CS-Study/CS-Study/tree/master/자바/immutable%20Class)
 
 
 
