@@ -28,6 +28,12 @@
 2. 모든 attribute에 반복되는 그룹(repeating group)이 나타나지 않는다.
 3. 기본 키를 사용하여 관련 데이터의 각 집합을 고유하게 식별할 수 있어야 한다.
 
+![image](https://user-images.githubusercontent.com/42582516/80311581-7401f000-881b-11ea-9fc1-efc5b1e8c249.png)
+
+> 1NF 예시.
+
+
+
 ## 2NF (제 2 정규형)
 
 > 1NF & 각 nonprime 칼럼은 (각 key에 full FD)해야한다.
@@ -36,6 +42,10 @@
 
 * 함수적 종속 (Functional Dependency) : X의 값에 따라 Y값이 결정될 때 X->Y로 표현하는데, Y는 X에 대해 **함수적 종속** 이라고 한다. 예를 들어 학번을 알면 이름을 알 수 있는데, 이경우엔 학번이 X가 되고 이름이 Y가 된다. X를 결정자라하고 Y는 종속자라고 한다. 
 * 함수적 종속에서 X의 값이 여러 요소 일경우, 즉, {X1, X2} -> Y일 경우, X1와 X2가 Y의 값을 결정할 때 이를 **완전 함수적 종속** 이라고 하고 ,X1, X2 중 하나만 Y의 값을 결정할 때 이를 **부분 함수적 종속** 이라고 한다.
+
+![image](https://user-images.githubusercontent.com/42582516/80311601-909e2800-881b-11ea-95a2-9e136acc4f41.png)
+
+> 2NF 예시.
 
 
 
@@ -50,6 +60,12 @@
 1. Relation이 제 2 정규화 되었다. 
 2. 기본 키(primary key)가 아닌 속성(Attribute)들은 기본 키 에만 의존해야 한다.
 
+![image](https://user-images.githubusercontent.com/42582516/80311616-a3186180-881b-11ea-9adf-21af9c517b5d.png)
+
+> 3NF 예시.
+
+
+
 ## BCNF 정규형
 
 > 1NF & 각 칼럼은 ((각 key에 fully FD)&& (비 key에 dependent 하지 않아야))한다.
@@ -63,6 +79,10 @@ Trivial FD 는 Y 가 X 의 부분집합인 경우를 말한다. A->A 이거나 A
 <img width="887" alt="image" src="https://user-images.githubusercontent.com/36303777/80274140-36b23b00-8713-11ea-94e5-634108d87883.png">
 
 위의 사진은  BCNF를 위반하는 경우이다.
+
+![image](https://user-images.githubusercontent.com/42582516/80311625-b297aa80-881b-11ea-838f-83dce5144585.png)
+
+> BCNF 예시.
 
 
 
