@@ -24,7 +24,7 @@
 
 **기획 > 분석 > 설계 > 개발 > 시험 > 유지보수**
 
-![폭포수 모델](https://t1.daumcdn.net/cfile/tistory/99AB593359E9B79E2C)
+![image](https://user-images.githubusercontent.com/42582516/80311830-f3dc8a00-881c-11ea-8408-cba0cd77b93a.png)
 
 **특징**
 
@@ -48,9 +48,9 @@
 
 #### 2. 원형(Prototyping) 패러다임
 
-![Prototyping](C:\Users\mh978\git\CS-Study\소프트웨어공학\Methodology\9962A63359E9B7FE07.png)
+![image](https://user-images.githubusercontent.com/42582516/80311847-0bb40e00-881d-11ea-865c-f1670bc8ba6b.png)
 
-![Prototyping2](https://t1.daumcdn.net/cfile/tistory/9980D73359E9B7FF24)
+![image](https://user-images.githubusercontent.com/42582516/80311855-1373b280-881d-11ea-9231-02102f33c316.png)
 
 **특징**
 
@@ -80,7 +80,7 @@
 각 나선은 4단계로 나눠진다.
 : 계획 및 정의 단계 > 위험 분석 단계 > 개발 단계 > 고객 평가 단계
 
-![나선형 패러다임](https://t1.daumcdn.net/cfile/tistory/9977083359EA213E11)
+![image](https://user-images.githubusercontent.com/42582516/80311873-25555580-881d-11ea-9e8b-4130ef89284a.png)
 
 **특징**
 
@@ -113,7 +113,7 @@
 
 1990년대 민첩성과 실용성을 앞세운 가벼운 경량급 개발 방법론인 애자일 기법을 제안
 
-![애자일](https://lh3.googleusercontent.com/proxy/PFg9Ul_UHN7hgwnzqfjenRdIcZA5iek_0u3Vp5UizF-jZx6Yu6ZM1M1zcaM50vrt0Lf3PSunt3BeGIYfExn0fd-W1mvGSFBR7bDX0ikQbXGgXzrP9B4JhL-662vi-lYiEiyAH9kuuuqKCHG9ZJkcvKif)
+![image](https://user-images.githubusercontent.com/42582516/80311928-6483a680-881d-11ea-8139-dbd2d6c055da.png)
 
 **특징**
 
@@ -155,8 +155,8 @@ XP는 **개발 속도를 높이는 가속 기술**이며, 그 중심은 단순�
   * 스토리 작성은 다음을 가정한다.
     * 요구사항은 변할 수 있고 정확히 알지 못할 수 있다.
   * 사용자와 개발자가 지속적으로 대화해야한다.
-  * ![사용자 스토리](https://t1.daumcdn.net/cfile/tistory/99CD843359EB0DCE36)
-  * ![usecase와의 차이점](https://t1.daumcdn.net/cfile/tistory/99F9383359EB0DCF0C)
+  * ![image](https://user-images.githubusercontent.com/42582516/80311885-31d9ae00-881d-11ea-8f7d-7c2f2168af8e.png)
+  * ![image](https://user-images.githubusercontent.com/42582516/80311887-33a37180-881d-11ea-888a-ea250bfee6df.png)
 * 좋은 사용자 스토리
   * 독립적이다.
   * 협상 가능하다.
