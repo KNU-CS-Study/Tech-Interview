@@ -34,6 +34,7 @@
 * [이중 동작 모드](./운영체제/DualmodeOperation/README.md)
 * [메모리 구조](./운영체제/ProcessMemoryStructure/README.md)
 * [쓰레드 세이프](./운영체제/ThreadSafe/README.md)
+* [CPU 스케줄링](./운영체제/CPU-Scheduling/README.md))
 
 >  [interview](./운영체제/interview/README.md)
 
@@ -42,6 +43,7 @@
 ### 데이터베이스
 
 * [DB 기본정보](./데이터베이스/DB-intro/README.md)
+* [정규화](./데이터베이스/정규화/README.md)
 
 > [interview](./데이터베이스/interview/README.md)
 
@@ -64,7 +66,7 @@
 * [JVM](./자바/JVM/README.md)
 * [제어자](./자바/Modifier/README.md)
 * [OOP](./자바/OOP/README.md)
-* [Immutable 클래스](https://github.com/KNU-CS-Study/CS-Study/tree/master/자바/immutable%20Class)
+* [Immutable 클래스](./자바/immutable%20Class)
 
 > [interview](./자바/interview/README.md)
 
