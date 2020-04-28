@@ -104,3 +104,9 @@ public <T extends Number> int compare(T t1, T t2){
 ### References
 
 * https://devbox.tistory.com/entry/Java-제네릭 [장인개발자를 꿈꾸는 :: 기록하는 공간]
+* https://cornswrold.tistory.com/180
+* https://yaboong.github.io/java/2019/01/19/java-generics-1/
+
+좀 더 확인하려면
+
+* https://lktprogrammer.tistory.com/177
