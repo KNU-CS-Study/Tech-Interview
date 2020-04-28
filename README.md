@@ -76,6 +76,7 @@
 
 * [브라우저](./웹/Browser/README.md)
 * [스프링](./웹/Spring/README.md)
+* [서블릿](./웹/Servlet/README.md)
 
 > [interview](./웹/interview/README.md)
 
