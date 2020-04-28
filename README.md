@@ -67,6 +67,7 @@
 * [제어자](./자바/Modifier/README.md)
 * [OOP](./자바/OOP/README.md)
 * [Immutable 클래스](./자바/immutable%20Class)
+* [Generic](./자바/Generic/README.md)
 
 > [interview](./자바/interview/README.md)
 

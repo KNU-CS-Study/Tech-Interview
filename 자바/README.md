@@ -10,6 +10,8 @@
 * [OOP](./OOP/README.md)
 * [Immutable 클래스](https://github.com/KNU-CS-Study/CS-Study/tree/master/자바/immutable%20Class)
 
+* [Generic](./Generic/README.md)
+
 
 
 **자바** 관련 면접 질문은 다음과 같다.
