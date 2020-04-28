@@ -129,7 +129,7 @@
 * 먼저 도착한 프로세스를 먼저 처리하는 알고리즘. 
 * 비 선점형 FIFO큐를 이용하여 간단하게 구현한다.
 
-![image-20200428203942323](/Users/dongwook/Library/Application Support/typora-user-images/image-20200428203942323.png)
+![image](https://user-images.githubusercontent.com/36303777/80490801-dafae280-899c-11ea-8c36-5f1e24814e6f.png)
 
 ### SJF(Shorted Job First)
 
