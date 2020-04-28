@@ -5,6 +5,7 @@
 * [이중 동작 모드](./DualmodeOperation/README.md)
 * [메모리 구조](./ProcessMemoryStructure/README.md)
 * [쓰레드 세이프](./ThreadSafe/README.md)
+* [CPU 스케줄링](./CPU-Scheduling/README.md)
 
 
 
