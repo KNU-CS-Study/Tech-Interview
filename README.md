@@ -1,4 +1,4 @@
-# INTERVIEW QUESTIONS ABOUT CS
+x# INTERVIEW QUESTIONS ABOUT CS
 개발에 관련된 기본적인 지식을 업데이트하고 정리합니다.
 
 
@@ -59,6 +59,7 @@
 * [HTTP HTTPS](./네트워크/HTTP_HTTPS/README.md)
 * [OSI 7](./네트워크/OSI-7/README.md)
 * [TCP UDP](./네트워크/TCP_UDP/README.md)
+* [IP주소와 DNS](./네트워크/IP_DNS/README.md)
 
 > [interview](./네트워크/interview/README.md)
 
@@ -113,6 +114,7 @@
 * [브라우저](./웹/Browser/README.md)
 * [스프링](./웹/Spring/README.md)
 * [서블릿](./웹/Servlet/README.md)
+* [스프링DI](./웹/SpringDI/README.md)
 
 > [interview](./웹/interview/README.md)
 
