@@ -52,7 +52,7 @@ A클라이언트는 B서버에게 ACK을 보내고 이후로부터는 연결이 
 
 
 
-**TCP의 4-way Handshaking **
+**TCP의 4-way Handshaking**
 
 - 3-Way handshake는 TCP의 연결을 초기화 할 때 사용한다면, 
 - 4-Way handshake는 세션을 종료하기 위해 수행되는 절차입니다.
