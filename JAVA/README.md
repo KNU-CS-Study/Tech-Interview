@@ -1,6 +1,6 @@
 # JAVA(자바)
 
-**자바** 에서는 다음과 같은 내용을 다룬다.
+**자바** 에서는 다음과 같은 내용을 다룹니다.
 
 * [추상클래스 vs 인터페이스](./AbstractClass_vs_Interface/README.md)
 * [컬렉션프레임워크](./CollectionFramework/README.md)
@@ -14,6 +14,5 @@
 
 
 
-**자바** 관련 면접 질문은 다음과 같다.
+### :fire:[interview](./interview/README.md)
 
-* [interview](./interview/README.md)

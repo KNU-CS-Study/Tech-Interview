@@ -6,6 +6,5 @@
 
 
 
-**안드로이드** 관련 면접 질문은 다음과 같다.
+### :fire:[interview](./interview/README.md)
 
-* [interview](./interview/README.md)
