@@ -50,7 +50,9 @@ IP주소란 네트워킹이 가능한 장비를 식별하는 주소.
 
 ## DNS
 
-* Domain Name Service
+> DNS 또는 Domain Name System은 사람이 읽을 수 있는 도메인 이름(예: www.amazon.com)을 머신이 읽을 수 있는 IP 주소(예: 192.0.2.44)로 변환
+
+* **Domain Name Service**
 * Host의 도메인 이름을 네트워크 주소로 바꾸거나 그 반대의 변환을 수행할 수 있도록 하기위해 개발됨.
 * IP 주소와 함께 하나의 쌍을 이루어 호스트를 구분할 수 있는 인자가 도메인 이름이며, 이는 32비트의 숫자로 이루어진 IP주소를 사람이 보다 기억하기 쉽게 문자열로 구성한것.
 
@@ -58,14 +60,24 @@ IP주소란 네트워킹이 가능한 장비를 식별하는 주소.
 
 ### DNS의 구성요소
 
-* 도메인 네임 스페이스(Domain Name Space)
+* **도메인 네임 스페이스(Domain Name Space)**
   * DNS는 거대한 분산 네이밍 시스템, 도메인 네임 스페이스는 이러한 DNS가 저장/관리하는 계층적 구조를 의미.
   * 최상위 루트 DNS 서버가 존재하고 그 하위로 인터넷에 연결된 노드가 연속해서 이어진 계층구조.
   * 일반적으로 PD에서 사용하는 디렉토리구조와 유사하다.
-* 네임 서버(Name Server)
+* **네임 서버(Name Server)**
   * 영문 도메인을 네 자리의 IP주소로 매핑 시켜주는 서버
-* 리졸버(Resolver)
+* **리졸버(Resolver)**
   * 웹 브라우저와 같은 DNS 클라이언트의 요청을 네임 서버로 전달하고 네임 서버로부터 정보(도메인 이름과 IP주소)를 받아 클라이언트에게 제공하는 기능을 수행한다.
+
+
+
+### DNS 서비스 유형
+
+* **신뢰할 수 있는 DNS**
+  * **신뢰할 수 있는 DNS** 서비스는 개발자가 퍼블릭 DNS 이름을 관리하는 데 사용하는 업데이트 메커니즘을 제공
+* **재귀적 DNS**
+  * 대개 클라이언트는 신뢰할 수 있는 DNS 서비스에 직접 쿼리를 수행하지 않습니다.
+  * 대신에 **해석기** 또는 **재귀적 DNS** 서비스라고 알려진 다른 유형의 DNS 서비스에 연결하는 경우가 일반적
 
 
 
@@ -93,4 +105,4 @@ IP주소란 네트워킹이 가능한 장비를 식별하는 주소.
 * https://github.com/qkraudghgh/coding-interview/blob/master/Network/IPAndDNS.md
 * https://judo0179.tistory.com/37
 * https://ijbgo.tistory.com/27
-
+* https://aws.amazon.com/ko/route53/what-is-dns/
