@@ -1,26 +1,42 @@
-x# INTERVIEW QUESTIONS ABOUT CS
-개발에 관련된 기본적인 지식을 업데이트하고 정리합니다.
+# INTERVIEW QUESTIONS ABOUT PROGRAMMERS
+개발에 관련된 지식을 업데이트하고 정리합니다.
+
+
+
+`Pull Request` 을 하시기 전에 [Wiki]를 읽어주시면 감사합니다.
 
 
 
 ## :cloud: Contents
 
-* 소개
-* About CS
-  * 개발상식
-  * 네트워크
-  * 데이터베이스
-  * 디자인패턴
-  * 소프트웨어공학
-  * 알고리즘
-  * 운영체제
-  * 웹
-  * 자료구조
-  * 자바
+* [소개](#소개)
+* [PART 1. CS](#CS)
+  * [개발상식](./개발상식/README.md)
+  * [네트워크](./네트워크/README.md)
+  * [데이터베이스](./데이터베이스/README.md)
+  * [디자인패턴](./디자인패턴/README.md)
+  * [소프트웨어공학](./소프트웨어공학/README.md)
+  * [자료구조](./자료구조/README.md)
+  * [알고리즘](./알고리즘/README.md)
+  * [운영체제](./운영체제/README.md)
+  * [웹](./웹/README.md)
+* [PART 2. Language](#Language)
+  * [C++](./C++/README.md)
+  * [JAVA](./JAVA/README.md)
+  * [Python](./Python/README.md)
+  * [JavaScript](./JavaScript/README.md)
+* [PART 3. 직무 관련 정리](#직무-관련-정리)
+  * [Front-End](./Front-End/README.md)
+  * [Back-End](./Back-End/README.md)
+  * [안드로이드](./안드로이드/README.md)
+  * [IOS](./IOS/README.md)
+  * [보안](./보안/README.md)
+  * [Machine Learning](./MachineLearning/README.md)
+* [마무리](#마무리)
 
 
 
-## 소개
+## :rainbow:소개
 
 예비 개발자들이 컴퓨터 공학에 관련된 자료를 정리하고 있습니다.
 
@@ -28,100 +44,65 @@ x# INTERVIEW QUESTIONS ABOUT CS
 
 **틀린부분 지적** 및 **수정 사항**은 언제나 환영합니다.
 
- `Pull Request`나 `Issue` 로 참여해주시면 감사한 마음으로 수정하겠습니다.
+ `Pull Request`나 `Issue` 로 참여해주시면 감사한 마음으로 반영하고 수정하겠습니다.
 
 
 
-##  개발상식 [LINK](./개발상식/README.md)
+## :one:CS
 
-* [Git](./개발상식/Git/README.md)
+> Computer Science에 대한 공통적인 내용을 정리합니다.
 
-> [interview](./개발상식/interview/README.md)
-
-
-
-## 자료구조 [LINK](./자료구조/README.md)
-
-* [Array vs LinkedList](./자료구조/Array_vs_LinkedList/README.md)
-* [Graph](./자료구조/Graph/README.md)
-* [Heap](./자료구조/Heap/README.md)
-* [RadixSort vs CountSort](./자료구조/RadixSort_vs_CountSort/README.md)
-* [Stack & Queue](./자료구조/Stack_&_Queue/README.md)
-* [Tree](./자료구조/Tree/README.md)
-
-> [interview](./자료구조/interview/README.md)
+* [개발상식](./개발상식/README.md)
+* [네트워크](./네트워크/README.md)
+* [데이터베이스](./데이터베이스/README.md)
+* [디자인패턴](./디자인패턴/READMD.md)
+* [소프트웨어공학](./소프트웨어공학/README.md)
+* [자료구조](./자료구조/README.md)
+* [알고리즘](./알고리즘/README.md)
+* [운영체제](./운영체제/README.md)
+* [웹](./웹/README.md)
 
 
 
-##  네트워크 [LINK](./네트워크/README.md)
+## :two:Language
 
-* [GET POST](./네트워크/GET_POST/README.md)
-* [HTTP HTTPS](./네트워크/HTTP_HTTPS/README.md)
-* [OSI 7](./네트워크/OSI-7/README.md)
-* [TCP UDP](./네트워크/TCP_UDP/README.md)
-* [IP주소와 DNS](./네트워크/IP_DNS/README.md)
+> 개발 언어에 대한 내용을 정리합니다.
 
-> [interview](./네트워크/interview/README.md)
-
-
-
-##  운영체제 [LINK](./운영체제/README.md)
-
-* [이중 동작 모드](./운영체제/DualmodeOperation/README.md)
-* [메모리 구조](./운영체제/ProcessMemoryStructure/README.md)
-* [쓰레드 세이프](./운영체제/ThreadSafe/README.md)
-* [CPU 스케줄링](./운영체제/CPU-Scheduling/README.md))
-
->  [interview](./운영체제/interview/README.md)
+* [C++](./C++/README.md)
+* [JAVA](./JAVA/README.md)
+* [Python](./Python/README.md)
+* [JavaScript](./JavaScript/README.md)
 
 
 
-##  데이터베이스 [LINK](./데이터베이스/README.md)
+## :three:직무 관련 정리
 
-* [DB 기본정보](./데이터베이스/DB-intro/README.md)
-* [정규화](./데이터베이스/정규화/README.md)
+> 직무에 관련된 지식을 정리합니다.
 
-> [interview](./데이터베이스/interview/README.md)
-
-
-
-## 디자인패턴 [LINK](./디자인패턴/README.md)
-
-* [디자인패턴](./디자인패턴/DesignPattern/README.md)
-* [Singleton](./디자인패턴/Singleton/README.md)
-
-> [interview](./디자인패턴/interview/README.md)
+* [Front-End](./Front-End/README.md)
+* [Back-End](./Back-End/README.md)
+* [안드로이드](./안드로이드/README.md)
+* [IOS](./IOS/README.md)
+* [보안](./보안/README.md)
+* [Machine Learning](./MachineLearning/README.md)
 
 
 
-## 자바 [LINK](./자바/README.md)
+## :partly_sunny:마무리
 
-* [추상클래스 vs 인터페이스](./자바/AbstractClass_vs_Interface/README.md)
-* [컬렉션프레임워크](./자바/CollectionFramework/README.md)
-* [가비지컬렉터](./자바/GarbageCollector/README.md)
-* [JVM](./자바/JVM/README.md)
-* [제어자](./자바/Modifier/README.md)
-* [OOP](./자바/OOP/README.md)
-* [Immutable 클래스](./자바/immutable%20Class)
-* [Generic](./자바/Generic/README.md)
+더 나은 개발자가 되기 위해서 **함께 만들어 가는 공간**입니다.
 
-> [interview](./자바/interview/README.md)
+관련 정보를 봐주시고 기여해주신 분들에게 항상 감사합니다.
 
 
 
-##  웹 [LINK](./웹/README.md)
+### 자기에게 맞는 지식?
 
-* [브라우저](./웹/Browser/README.md)
-* [스프링](./웹/Spring/README.md)
-* [서블릿](./웹/Servlet/README.md)
-* [스프링DI](./웹/SpringDI/README.md)
+> 나중에 추가 - 분야에 따른 공부해야하는 부분 정리
 
-> [interview](./웹/interview/README.md)
+#### 웹 프론트엔드 개발자라면?
 
 
 
-## 소프트웨어공학 [LINK](./소프트웨어공학/README.md)
+#### 웹 백엔드 개발자라면?
 
-* [개발방법론](./소프트웨어공학/Methodology/README.md)
-
->  [interview](./소프트웨어공학/interview/README.md)
