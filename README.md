@@ -9,8 +9,8 @@
 
 ## :cloud: Contents
 
-* [소개](https://github.com/KNU-CS-Study/Tech-Interview/README.md#소개)
-* [PART 1. CS](https://github.com/KNU-CS-Study/Tech-Interview/README.md#CS)
+* [소개](https://github.com/KNU-CS-Study/Tech-Interview##소개)
+* [PART 1. CS](https://github.com/KNU-CS-Study/Tech-Interview##CS)
   * [개발상식](./개발상식/README.md)
   * [네트워크](./네트워크/README.md)
   * [데이터베이스](./데이터베이스/README.md)
@@ -20,19 +20,19 @@
   * [알고리즘](./알고리즘/README.md)
   * [운영체제](./운영체제/README.md)
   * [웹](./웹/README.md)
-* [PART 2. Language](https://github.com/KNU-CS-Study/Tech-Interview/README.md#Language)
+* [PART 2. Language](https://github.com/KNU-CS-Study/Tech-Interview##Language)
   * [C++](./C++/README.md)
   * [JAVA](./JAVA/README.md)
   * [Python](./Python/README.md)
   * [JavaScript](./JavaScript/README.md)
-* [PART 3. 직무 관련 정리](https://github.com/KNU-CS-Study/Tech-Interview/README.md#직무-관련-정리)
+* [PART 3. 직무 관련 정리](https://github.com/KNU-CS-Study/Tech-Interview##직무-관련-정리)
   * [Front-End](./Front-End/README.md)
   * [Back-End](./Back-End/README.md)
   * [안드로이드](./안드로이드/README.md)
   * [IOS](./IOS/README.md)
   * [보안](./보안/README.md)
   * [Machine Learning](./MachineLearning/README.md)
-* [마무리](https://github.com/KNU-CS-Study/Tech-Interview/README.md#마무리)
+* [마무리](https://github.com/KNU-CS-Study/Tech-Interview##마무리)
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-## :one: CS
+## :one:CS
 
 > Computer Science에 대한 공통적인 내용을 정리합니다.
 
@@ -64,7 +64,7 @@
 
 
 
-## :two: Language
+## :two:Language
 
 > 개발 언어에 대한 내용을 정리합니다.
 
@@ -75,7 +75,7 @@
 
 
 
-## :three: 직무 관련 정리
+## :three:직무 관련 정리
 
 > 직무에 관련된 지식을 정리합니다.
 
@@ -88,7 +88,7 @@
 
 
 
-## :partly_sunny: 마무리
+## :partly_sunny:마무리
 
 더 나은 개발자가 되기 위해서 **함께 만들어 가는 공간**입니다.
 
