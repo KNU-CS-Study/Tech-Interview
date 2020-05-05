@@ -208,7 +208,7 @@ DB + DBMS (+ DB Applications)
 
    > 다양한 뷰를 제공하기 위해 사용됨.
    >
-   > **VIEW
+   > **VIEW**
 
 
 ### Data Independence (데이터 독립)
