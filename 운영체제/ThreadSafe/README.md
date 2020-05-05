@@ -88,7 +88,7 @@ while(true)
 
 ### Atomic Operation = 인터럽트 되지 않는 하나의 단위를 가진 명령어
 
-1. **test_and_set() **
+1. **test_and_set()**
 
 ```java
 boolean test_and_set(boolean *target) 
