@@ -1,6 +1,6 @@
 # 자바 면접 질문
 
-### Java
+### Q. Java
 
 Java는 네트워크상에서 쓸 수 있도록 미국의 Sun마이크로시스템가 개발한 객체지향 프로그래밍 언어
 
@@ -16,7 +16,7 @@ d. Garbage Collector를 통한 메모리 관리기능
 
 e. 멀티쓰레드(Multi-thread)를 지원한다.
 
-### OOP(객체지향 프로그래밍)
+### Q. OOP(객체지향 프로그래밍)
 
 OOP란 Object-Oriented Programming의 약어로써 객체지향 프로그래밍을 의미
 
@@ -34,7 +34,7 @@ d. 개발속도 향상
 
 e. 상속을 통한 장점 극대화
 
-### Object
+### Q. Object
 
 Object(객체)는 OOP에서 데이터(변수)와 그 데이터에 관련되는 동작(함수). 즉 절차, 방법, 기능을 모두 포함한 개념
 
@@ -44,7 +44,7 @@ Object(객체)는 OOP에서 데이터(변수)와 그 데이터에 관련되는 �
 
 같은 성질, 같은 구조와 형태를 가지는 객체는 등급으로 정의하고 등급에 속하는 객체는 그 등급의 인스턴스라고 한다.
 
-### Overloading vs Overriding
+### Q. Overloading vs Overriding
 
 Overloading(오버로딩)
 
@@ -60,11 +60,11 @@ Overriding(오버라이딩)
 
 - 상위 클래스(부모 클래스)의 메소드를 하위 클래스(자식 클래스)에서 재정의
 
-### JDBC
+### Q. JDBC
 
 - Java Data Base Connection의 약자로 JAVA 언어를 통해 데이터베이스에 접근할 수 있는 프로그래밍
 
-### Interface, Abstract
+### Q. Interface, Abstract
 
 Interface
 
@@ -104,23 +104,23 @@ Interface vs Abstract
 
 - Abstract는 일반 메서드를 사용할 수 있지만, Interface는 메서드 선언만 가능하다
 
-### Call by Reference, Call by Value
+### Q. Call by Reference, Call by Value
 
 Call by References – 매개변수의 원래 주소에 값을 저장하는 방식, 클래스 객체를 인수로 전달한 경우
 
 Call by Value – 인수로 기본 데이터형을 사용. 주어진 값을 복사하여 처리하는 방식. 메서드 내의 처리 결과는 메서드 밖의 변수에 영향을 미치지 않늗다.
 
-### Static의 의미
+### Q. Static의 의미
 
 - 클래스가 로딩될 때, 메모리 공간을 할당하는데 처음 설정된 메모리 공간이 변하지 않음을 의미
 
 - 객체를 아무리 많이 만들어도 해당 변수는 하나만 존재(객체와 무관한 키워드)
 
-### Garbage Collection(가비지 컬렉션)
+### Q. Garbage Collection(가비지 컬렉션)
 
 - 시스템에서 더 이상 사용하지 않는 동적 할당된 메모리 블록을 찾아 자동으로 다시 사용 가능한 자원으로 회수 하는 것. 시스템에서 가비지 컬렉션을 수행하는 부분을 가비지 컬렉터라 부른다. 고로 자바에서는 메모리 문제를 신경쓰지 않아도 된다!
 
-### Primitive type과 Reference type
+### Q. Primitive type과 Reference type
 
 Primitive type – 변수에 값 자체를 저장(정수형, 실수형, 문자형, 논리형) – Wrapper Class를 통해 객체로 변환 가능
 
@@ -128,11 +128,11 @@ Reference type – 메모리상에 객체가 있는 위치를 저장
 
 종류 – Class, Interface, Array 등
 
-### Wrapper Class
+### Q. Wrapper Class
 
 Primitive type으로 표현할 수 있는 간단한 데이터를 객체로 만들어야 할 경우가 있는데 그러한 기능을 지원
 
-### Thread
+### Q. Thread
 
 Thraed(쓰레드) – 프로세스내에서 동시에 실행되는 독립적인 실행 단위를 말함. 장점으로는 자원을 많이 사용하지 않고 구현이 쉬우며 범용성이 높다.
 
@@ -156,7 +156,7 @@ Thread와 Process 차이
 
 여러 분야에서 ‘과정’ 또는 ‘처리’라는 뜻으로 사용되는 용어로 컴퓨터 분야에서는 ‘실행중인 프로그램’이라는 뜻으로 쓰인다. 이 프로세스 내에서 실행되는 각각의 일을 스레드라고 한다. 프로세스 내에서 실행되는 세부 작업 단위로 여러 개의 스레드가 하나의 프로세스를 이루게 되는 것이다.
 
-### 접근 제한자(public > protected > default > private)
+### Q. 접근 제한자(public > protected > default > private)
 
 Public – 접근 제한이 없다.(같은 프로젝트 내에 어디서든 사용 가능)
 
@@ -166,7 +166,7 @@ Default – 같은 패키지 내에서만 접근 가능
 
 Private – 같은 클래스 내에서만 접근 가능
 
-### Stack, Queue
+### Q. Stack, Queue
 
 Stack
 
@@ -188,11 +188,11 @@ Queue
 
 * Linear Queue(선형큐)는 메모리 재사용이 불가능 이러한 문제점을 보완하여 Circular Queue(원형 큐)가 나옴
 
-### Singleton Design Pattern(싱글톤 디자인 패턴, 싱글톤 패턴)
+### Q. Singleton Design Pattern(싱글톤 디자인 패턴, 싱글톤 패턴)
 
 - 클래스 인스턴스가 하나만 만들어지도록 하고, 그 인스턴스에 대한 전역 접근을 제공한다.
 
-### String과 StringBuffer의 차이
+### Q. String과 StringBuffer의 차이
 
 자바의 기본 데이터 타입인 int, float, char 등과 다르게 String은 데이터 타입이 아닌 클래스 객체입니다. 또한 String은 불변의 객체입니다. 한번 String name =”길동”; 라고 선언하게 되면 먼저 String 객체타입인 name이라는 인스턴스를 만들고 메모리에 “길동”을 올려버립니다. 그리고 name이 “길동”을 참조하는 레퍼런스가 되는 것입니다.
 
@@ -200,7 +200,7 @@ Queue
 
 name = name + “홍”; 구문이 실행될 때 실제로는 스트링 버퍼를 새로 생성해서 name이 가리키는 “길동”을 만들어주고 스트링 버퍼의 append 함수를 이용하여 “홍” 를 붙여줍니다. 그렇게 완성된 스트링 버퍼값을 메모리에 올리고 name은 다시 이 값을 참조하게 됩니다. 스트링 버퍼는 char타입의 배열로 되어 있어서 한글자 한글자를 append할 수 있다는 것을 아셔야합니다. 그럼 그와중에 생겨난 메모리 안의 “길동” 이라는 값과 “홍”라는 값은 가비지 컬렉터가 가지고 있다가 필요없어서 버립니다. 그 짧은 순간에 이런 일처리가 진행이 되어서 스트링 버퍼를 사용하는 것이 스트링 객체를 사용하는 것보다 빠르다는게 제 생각입니다.
 
-### 자바의 메모리 영역
+### Q. 자바의 메모리 영역
 
 - 메서드 영역 : static 변수, 전역변수, 코드에서 사용되는 Class 정보 등이 올라간다. 코드에서 사용되는 class들을 로더로 읽어 클래스별로 런타임 필드데이터, 메서드 데이터 등을 분류해 저장한다.
 
@@ -208,13 +208,13 @@ name = name + “홍”; 구문이 실행될 때 실제로는 스트링 버퍼�
 
 - 힙(Heap) : new 연산자를 통한 동적 할당된 객체들이 저장되며, Garbage 컬렉션에 의해 메모리가 관리되어 진다.
 
-### DAO와 DTO
+### Q. DAO와 DTO
 
 - DAO : Data Access Object의 약자로 간단히 데이터베이스의 데이터에 접근을 위한 객체이다. 데이터베이스에 접근을 하기위한 로직과 비즈니스 로직을 분리하기 위해서 사용한다. DB를 사용해 데이터를 조회하거나 조작하는 기능을 전담하도록 만든 오브젝트를 말한다.
 
 - DTO : Data Transfer Object의 약자로 VO(Value Object)로 바꾸어 말할 수 있는데 계층간 데이터 교환을 위한 JavaBean을 말합니다. 여기서 말하는 계층이란 Controller, View, Business Layer, Persistent Layer를 말하며 각 계층간 데이터 교환을 위한 객체를 DTO 또는 VO라고 부릅니다. 그런데 VO는 동일한 개념이지만 read only 속성을 가집니다.
 
-### 변수 명명법
+### Q. 변수 명명법
 
 - 헝가리언 표기법 : 자료형을 식별자에 같이 포함
 
@@ -230,7 +230,7 @@ ex) korScore
 
 - 스네이크 표기법 : ex)eng_score
 
-### String,StringBuilder,StringBuffer의 차이를 설명하세요.
+### Q. String,StringBuilder,StringBuffer의 차이를 설명하세요.
 
 String 객체는 immutable 합니다.
 
@@ -244,7 +244,7 @@ StringBuffer은 멀티쓰레드 환경에서 동기화를 보장하지만 String
 
 \*JDK 1.5버전 이하에서는 String을 사용할때 StringBuilder와 성능 차이가 있었지만 1.5버전 이후부터는 String을 컴파일 할때 자동적으로 StringBuilder로 컴파일 하여 실행되므로 성능 차이가 사라졌다고 합니다. ^^
 
-### 객체지향 언어의 특징을 설명해보세요.
+### Q. 객체지향 언어의 특징을 설명해보세요.
 
 상속 추상화 캡슐화 다형성 (상추 캡이다)
 
@@ -256,7 +256,7 @@ StringBuffer은 멀티쓰레드 환경에서 동기화를 보장하지만 String
 
 다형성 : 한 요소에 여러 개념을 넣어 놓은것 (오버라이딩,오버로딩)
 
-### 객체지향에 대해서 설명해보세요.
+### Q. 객체지향에 대해서 설명해보세요.
 
 객체지향이란 실세계의 사물을 추상화하여 멤버 변수와 메소드를 정의하는데서 출발합니다.
 
@@ -266,7 +266,7 @@ StringBuffer은 멀티쓰레드 환경에서 동기화를 보장하지만 String
 
 따라서 개발 및 유지보수에 효율적이고 캡슐화를 통한 데이터의 올바른 값 유지, 다형성을 이용한 메소드의 활용 등이 있습니다.
 
-### JAVA에서 바이트코드에 대해 설명해보세요. (+ 자바 언어의 장점)
+### Q. JAVA에서 바이트코드에 대해 설명해보세요. (+ 자바 언어의 장점)
 
 바이트코드는 자바의 장점중의 하나입니다. 자바는 JVM을 이용한 플랫폼 독립적이라는 특징이 있습니다.
 
@@ -280,7 +280,7 @@ StringBuffer은 멀티쓰레드 환경에서 동기화를 보장하지만 String
 
 또 바이트 코드를 완전한 기계코드로 변환하는 과정에서 일반적인 컴파일 언어보다 속도가 많이 느리다는 단점이 있습니다.
 
-### NIO(New Input-Output)에 대해 설명하세요.
+### Q. NIO(New Input-Output)에 대해 설명하세요.
 
 기존의 자바 IO의 단점을 보완하여 JDK 1.4버전 이상에서 제공되는 IO패키지를 의미합니다.
 
@@ -298,15 +298,15 @@ blocking이란 IO작업에서 주로 사용되는 메소드의 실행속도가 �
 
 기본자료형은 byte,short,int,long,float 등이 존재합니다.
 
-### 오버로딩과 오버라이딩의 차이점을 알려주세요
+### Q. 오버로딩과 오버라이딩의 차이점을 알려주세요
 
 오버로딩은 메소드 이름은 같지만 매개변수를 다르게 정의하는 것을 말합니다.
 
 오버라이딩은 상위클래스(부모클래스)가 가지고 있는 메서드를 자식클래스에서 재정의하여 사용하는 것을 말합니다.
 
-### Call by Value Call By Reference 차이는 무엇인가요?
+### Q. Call by Value Call By Reference 차이는 무엇인가요?
 
-### 접근제어자(access modifier)에 대해 설명하시오.
+### Q. 접근제어자(access modifier)에 대해 설명하시오.
 
 접근제어자는 객체지향 프로그래밍에서 클래스의 멤버 변수 또는 메소드에 설정하는 키워드로 접근 영역을 제한하는데 사용합니다.
 public, default, protected, private이 존재합니다.
@@ -314,7 +314,7 @@ public, default, protected, private이 존재합니다.
 public은 접근 제한을 하지 않음을 의미합니다. default는 같은 패키지 내에서만 접근이 가능함을 의미합니다.
 protected는 같은 패키지 내 혹은 다른 패키지의 자식 클래스에서 접근이 가능함을 의미합니다. private는 같은 클래스 내에서만 접근이 가능함을 의미합니다.
 
-### 추상 클래스(abstract class)와 인터페이스(interface)에 대해 설명하시오.
+### Q. 추상 클래스(abstract class)와 인터페이스(interface)에 대해 설명하시오.
 
 인터페이스는 추상 클래스보다 추상화 정도가 높은 상태를 정의할 때 사용합니다.
 
@@ -342,22 +342,22 @@ implements 키워드를 이용하여 상속을 진행하며 자식 클래스에�
 
 이럴 때 추상메소드 대신 인터페이스를 사용하게 됩니다.
 
-### 컬렉션(collection) 클래스에서 제네릭을 사용하는 이유를 설명하시오.
+### Q. 컬렉션(collection) 클래스에서 제네릭을 사용하는 이유를 설명하시오.
 
 컬렉션 클래스에서 제네릭을 사용하면 컴파일러는 특정 타입만 포함 될 수 있도록 컬렉션을 제한합니다.
 
 컬렉션 클래스에 저장하는 인스턴스 타입을 제한하여 런타임에 발생할 수 있는 잠재적인 모든 예외를 컴파일타임에 잡아낼 수 있도록 도와줍니다.
 
-### 래퍼 클래스(wrapper class)에 대해 설명하시오.
+### Q. 래퍼 클래스(wrapper class)에 대해 설명하시오.
 
 기본 자료형으로 표현된 데이터를 참조 자료형으로 만들어야 할 경우 래퍼 클래스를 사용합니다.
 보통 특정 메소드에서 참조 자료형을 인자로 받거나, 기본 자료형이 아닌 객체 자료형으로 저장해야할 경우, 객체간 비교가 필요할 경우에 사용합니다.
 
-### 자바에서 쓰레드를 구현하기 위한 2가지 방법을 간단하게 설명하시오.
+### Q. 자바에서 쓰레드를 구현하기 위한 2가지 방법을 간단하게 설명하시오.
 
 lang 패키지내에 구현되어있는 Thread 클래스를 상속받거나 Runnable 인터페이스를 상속받아 run 메소드를 재정의하여 구현합니다.
 
-### 자바의 call-by-value, call-by-reference에 대해서 예를 들어 설명하시오.
+### Q. 자바의 call-by-value, call-by-reference에 대해서 예를 들어 설명하시오.
 
 자바에서는 기본 자료형은 call-by-value, 참조 자료형은 call-by-reference에 의해 메소드의 인자 값을 전달합니다.
 예를 들어 아래와 같은 소스 코드에서 swap 함수 내부에서는 a와 b의 값이 변경되나, 메인 메소드에서는 적용되지 않습니다.
@@ -461,11 +461,11 @@ this.name = name;
 }
 ```
 
-### 쓰레드풀이란 무엇인가요?
+### Q. 쓰레드풀이란 무엇인가요?
 
-### 컬랙션이란 무엇인가요?
+### Q. 컬랙션이란 무엇인가요?
 
-### JAVA EE와 SE의 차이점이 무엇인가요?
+### Q. JAVA EE와 SE의 차이점이 무엇인가요?
 
 Java SE란 Java Platform Standard Edition의 약자로 데스크톱, 서버, 임베디드를 위한 표준 자바 플랫폼을 말합니다.
 
@@ -477,11 +477,11 @@ SE에 서버측을 위한 기능을 추가하여 SE의 모든 기능을 이용 �
 
 https://wikidocs.net/257
 
-### GC
+### Q. GC
 
 https://d2.naver.com/helloworld/1329
 
-### Reachable vs Unreachable
+### Q. Reachable vs Unreachable
 
 나중에 하기
 
