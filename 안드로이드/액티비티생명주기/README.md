@@ -25,7 +25,7 @@ Activity 클래스에는 onUserLeaveHint() 메소드가 제공되고 있다. 이
 
 Activity의 onUserInteraction() 메소드는 사용자가 터치패드, 키입력 등으로 상호작용 하는지 알 수 있게 해준다. 어떤 상호작용을 하는지는 모름
 
-
+메모리 부족으로인한 갑작스러운 액티비티 종료에는 onSaveInstanceState() 콜백이 호출되어서 어느정도의 제어가 가능하다.
 
 ## REFERENCES
 
