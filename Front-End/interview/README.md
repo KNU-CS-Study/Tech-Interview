@@ -1,77 +1,274 @@
 # Front-End 면접 질문
 
-## Vue
+## 일반적인 질문
 
-### Vue.js 가 뭔가요?
+- 어제/이번 주에 무엇을 공부하셨나요?
+- 코딩을 할 때 당신을 들뜨게 하거나 흥미를 끄는 것들은 무엇은 가요?
+- 최근에 당신이 경험한 기술적인 문제는 무엇이고 그것을 어떻게 해결했나요?
+- 웹 애플리케이션이나 사이트를 만들 때 고려해야 할 UI, Security, Performance, SEO, Maintainability에 대해서 설명해주세요.
+- 선호하는 개발 환경에 대해 자유롭게 이야기해 주세요.
+- 버전 관리 시스템은 어떤 것들을 사용해보셨습니까?
+- 당신이 웹 페이지를 만들 때의 과정을 설명해주실 수 있을까요?
+- 당신에게 5가지 다른 stylesheet가 있습니다. 어떤 방법으로 사이트에 제공하는 게 가장 효과적일까요?
+- 점진적 향상법(progressive enhancement)과 우아한 성능저하법(graceful degradation)의 차이를 설명하실 수 있습니까?
+- 웹사이트에서 assets/resources를 최적화하는 방법에 관해 설명해주세요.
+- 브라우저가 한 번에 1개의 도메인에서 내려받는 자원은 몇 개인가요?
+  - 예외에는 어떤 것들이 있나요?
+- 페이지 로드 시간을 줄이는 세 가지 방법에 관해서 이야기 해 보세요.
+- 당신이 프로젝트에 합류했습니다. 근데 그들은 Tab을 이용하고, 당신은 Space를 사용했습니다. 어떻게 하실 건가요?
+- 간단한 Slideshow 페이지를 만드는 방법에 관해서 이야기해 보세요.
+- 만약 당신이 올해 기술적 책임자가 되었다면 무엇을 먼저 하시겠습니까?
+- 표준의 중요성에 관해 설명해주세요.
+- Flash of Unstyled Content에 관해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?
+- ARIA와 screenreader에 대해 설명해주세요. 또 접근성을 지원하는 웹사이트를 어떻게 만드는지에 대해도 설명해주세요.
+- CSS 애니메이션과 JavaScript 애니메이션의 차이점에 관해 설명해주세요.
+- CORS는 무엇의 약자이고 어떤 문제에 대해서 언급하는 것인가요?
 
-- Even You(에번 유) 가 2014년도에 발표한 자바스크립트 프레임워크
-- 동적인 사용자 인터페이스(UI) 를 만들기 위한 프레임워크
+## HTML 관련 질문
 
-### 단방향 바인딩과 양방향 바인딩
+- `doctype`이 무엇을 하는 것인가요?
+- 표준모드(standards mode)와 쿽스모드(quirks mode)의 다른 점은 무엇인가요?
+- XML과 XHTML의 다른 점은 무엇인가요
+- XHTML을 이용한 페이지의 한계점은 무엇이 있나요?
+- `application/xhtml+xml`으로 지정한 페이지에 어떠한 문제가 있나요?
+- 다국어가 포함된 페이지는 어떤 방식으로 제공하나요?
+- 다국어 페이지를 제공하는 여러 방법에 관해 설명해주세요.
+- `data-`속성은 무엇을 하는 것인가요? 사용했을 때 이점은 무엇인가요?
+- HTML5를 오픈 웹 플랫폼(open web platform)으로 생각해본다면, 어떤 것들로 구성돼 있을까요?
+- `쿠키(Cookies)`와 `세션저장소(sessionStorage)`와 `로컬저장소(localStorage)`의 차이점을 설명해주세요.
+- `,`와 ``의 차이점에 관해 설명해주세요.
+- CSS`를`사이에 쓰는 것과 JS`를`뒤에 사용하는 것은 좋은 사용법일까요? 어디에 배치하는 게 좋을까요?
+- Progressive rendering이란 무엇인가요?
+- 이미지 태그에 `srcset` 속성을 사용하는 이유는 무엇인가요? 브라우저가 이 속성을 가진 콘텐츠를 평가할 때 사용하는 과정을 설명해보세요.
+- HTML templating language를 사용해 본 경험이 있나요?
 
-단방향 바인딩 : 데이터 흐름이 한쪽인 경우를 의미한다. 
-대표적인 지시어는 v-on, v-bind, {{}} 머스태시 태그
-v-on(@) 은 UI에서 데이터 모델(viewModel)을 업데이트 하거나 출력할때 사용한다.
-v-bind(:) 는 데이터 모델(viewModel) 에서 업데이트 된 상태를 UI에 반영한다.
+## CSS 관련 질문
 
-양방햔 바인딩 : 데이터 흐름이 양방향이 경우를 의미한다.
-대표적인 지시어는 v-model
-데이터모델(viewModel)이 변경되면, 자동으로 UI도 변경이 된다.
+- class와 id의 차이점에 관해서 설명해주세요.
+- “reset” CSS가 무엇인지, 어떻게 유용한지 설명해주세요.
+- Floats가 어떻게 동작하는지 설명해주세요.
+- z-index에 관해 설명해주세요.
+- BFC(Block Formatting Context)에 관해 설명해주세요
+- 클리어링(Clearing) 기술에는 어떤 것들이 있으며, 어떨 때 어떻게 사용하는 것이 적절한지 설명하세요.
+- CSS 스프라이트(CSS Sprites)를 설명하고, 페이지나 사이트를 어떻게 향상하는지 설명하세요.
+- Image Replacement를 사용해야 할 때, 선호하는 기술과 언제 사용하는지를 설명해주세요.
+- 브라우저 스펙 차이에 따른 스타일링 이슈를 수정하기 위해서 어떻게 접근하나요?
+- 기능이 제약된 브라우저를 위해서 어떤 방식으로 페이지를 만드나요?
+  - 어떠한 기술과 절차를 거치는지 설명하세요.
+- 시각적으로 보이지 않고 스크린 리더에서만 가능하게 하는 방법에 관해 설명해주세요.
+- 그리드 시스템(Grid system)을 사용한 적이 있나요? 있다면 어떠한 것을 선호하나요?
+- 미디어 쿼리(media queries)를 사용한 적이 있나요? 혹은 모바일에 맞는 layout과 CSS를 사용한 적이 있나요?
+- SVG를 스타일링하는데 익숙하신가요?
+- 인쇄하기 위해 웹페이지를 어떻게 최적화 하나요?
+- 효율적인 CSS를 작성하기 위한 "비법(gotchas)"은 어떤 게 있나요?
+- CSS 전처리(CSS preprocessors)를 사용해보셨나요?
+  - 그렇다면, 사용 경험에 기반을 둬 좋았던 점과 나빴던 점을 설명해주세요.
+- 페이지에서 표준 폰트가 아닌 폰트 디자인을 사용할 때 어떤 방식으로 처리하시나요? (웹폰트를 제외하고)
+- CSS Selector가 어떠한 원리로 동작하는지 설명해주세요.
+- pseudo-elements에 관해서 설명하고 어디에서 사용되는지 이야기해보세요.
+- box model에 관해 설명하고 브라우저에서 어떻게 동작하는지 설명해주세요.
+- `* { box-sizing: border-box; }`은 무엇이고 사용했을때 이점은 무엇인가요?
+- 기억나는 display 속성에 대한 값들을 나열해보세요.
+- inline과 inline-block의 차이점은 무엇인가요?
+- 요소를 배치하는 방법(relative, fixed, absolute, static) 간의 차이는 무엇인가요?
+- CSS에서 'C’는 Cascading을 의미합니다. Cascading에 관해서 설명해주세요. 또 cascading system의 장점은 무엇인가요?
+- CSS framework를 사용해본 적이 있으신가요? 실무에서 사용해보았다면 어떤 이점이 있었나요?
+- 새로운 CSS Flexbox 혹은 Grid 스펙을 사용해 보신 적 있나요?
+- 반응형(Responsive) 디자인은 적응형(Adaptive) 디자인과 어떤 차이점이 있나요?
+- 레티나 그래픽 환경에서 작업해 보신 적이 있나요? 하셨다면 어떤 기술을 사용하셨나요?
+- *절대 좌표*대신 `translate()` 혹은 반대로 사용하는 이유가 있나요? 있다면 이유에 관해서 설명해주세요.
 
-### Vuex?
+## JS 관련 질문:
 
-- vue 앱에 상태관리를 위한 라이브러리
-- 모든 컴포넌트에 대한 상태를 중앙집중식으로 관리하는 저장소 역할을 한다.
+- event delegation에 관해 설명해주세요.
 
-### vue 앱 구조에 대한 기본 개념 설명
+- `this`는 JavaScript에서 어떻게 작동하는지 설명해주세요.
 
-- vue 는 루트 컴포넌트(root instance)를 생성하고 루트 컴포넌트가 최상위를 기준으로 자식컴포넌트들이 tree 구조로 구성됩니다.
+- prototype 기반 상속은 어떻게 하는지 설명해주세요.
 
-### Vue에서 filter 란 무엇인가?
+- AMD와 CommonJS는 무엇이고, 이것들에 대해 어떻게 생각하시나요?
 
-- 일반적인 text 형식(format)을 가공해주는 역할을 한다.
-- 머스태시 태그와 v-bind 에서 사용 가능하며, | (파이프) 기호와 함께 사용한다.
-- 필터 체이닝도 가능하다 ( {{ message | filterA | filterB }}
+- 다음 코드가 즉시 호출 함수 표현식(IIFE)로 동작하지 않는 이유에 관해서 설명해보세요:
 
-<!-- in mustaches --> 
-{{ message | capitalize }} //  capitalize -> filter
+  ```
+  function foo(){ }();
+  ```
 
-<!-- in v-bind --> 
+  - IIFE로 만들기 위해서는 어떻게 해야 하나요?
 
-<div v-bind:id="rawId | formatId"></div> //  formatId -> filter
+- `null` 과 `undefined` , `undeclared` 의 차이점은 무엇인가요?
 
-### Vue에서 컴포넌트란 무엇인가?
+  - 두개를 구분하기 위해서는 어떻게 하면 될까요?
 
-- vue component 는 재사용 및 확장성을 위해 코드를 캡슐화한거다.
-- vue component 는 vue instance 이기도 하여, 옵션 객체 사용이 가능(root component 에서만 사용하는 옵션 제외)
+- 클로져(Closure)는 무엇이며, 어떻게/왜 사용하는지 설명해주세요.
+
+  - 클로져를 만들 때 선호하는 패턴은 무엇인가요? argyle (IIFEs에만 적용할 수 있다)
+
+- 익명함수(anonymous functions)는 주로 어떤 상황에서 사용하나요?
+
+- 당신의 코드를 어떻게 구성하는지? (모듈 패턴, 전통적 상속)
+
+- 호스트 객체(Host Objects)와 네이티브 객체(Native Objects)의 차이점은 무엇인가요?
+
+- 다음 코드의 차이점은 무엇인가요?
+
+```javascript
+function Person(){} var person = Person() var person = new Person()
+```
+
+- `.call`과 `.apply`의 차이점은 무엇인가요?
+- `Function.prototype.bind`을 설명하세요.
+- `document.write()`는 언제 사용하나요?
+- UA 문자열을 이용하여 기능 검출(feature detection)과 기능 추론(feature inference)의 차이점을 설명하세요.
+- AJAX에 관해 가능한 한 자세히 설명하세요.
+- AJAX를 사용했을 때의 장단점에 대해 설명해주세요.
+- JSON이 어떻게 동작 되는지 설명하세요. (그리고 AJAX와 어떻게 다른지 설명하세요.)
+- 기존에 JavaScript 템플릿을 사용한 적이 있나요? 만약에 있다면, 어떠한 방식으로 사용했는지 말씀해주세요.
+- "호이스팅(Hoisting)"에 대해서 설명하세요.
+- 이벤트 버블링(Event Bubbling)에 대해서 설명하세요.
+- 이벤트 캡쳐링(Event Capturing)에 대해서 설명하세요.
+- "속성(Attribute)"와 "요소(property)"의 차이가 무엇인가요?
+- 내장된 JavaScript 객체를 확장하는 것이 좋지 않은 이유는 무엇인가요?
+- document load event와 DOMContentLoaded event의 차이점은 무엇인가요?
+- `==`와 `===`의 차이점은 무엇인가요?
+- JavaScript의 "동일출처정책(the same-origin policy)"에 대해서 설명하세요.
+- 다음 코드를 동작하게 만드세요.
+
+```javascript
+duplicate([1, 2, 3, 4, 5]); // [1,2,3,4,5,1,2,3,4,5]
+```
+
+- 삼항식(Ternary statement)을 사용하는 이유는 무엇이고, 그것을 표현하기 위한 연산자 단어는 무엇인가요?
+- `use strict;`은 무엇이고, 사용했을 때 장단점에 관해서 설명해주세요.
+- 100번 반복되는 반복문이 있습니다. 3의 배수일 때는 `fizz`, 5의 배수일 때는 `buzz`, 3과 5의 공배수일 때는 `fizzbuzz`가 출력되는 코드를 작성해보세요.
+- 전역 scope를 사용했을 때 장단점에 관해 설명해주세요.
+- 때때로 `load` event를 사용하는 이유에 관해 설명해주세요. 또 단점이 있다면 대안에 대해서도 설명해주세요.
+- SPA에서 SEO에 유리하도록 만들기 위한 방법에 대해 설명해주세요.
+- Promise를 사용해 본 경험이 있나요?
+- Promise가 콜백 대비 장/단점은 무엇인지 설명해주세요.
+- JavaScript의 작동방식의 장단점에 관해 설명해주세요.
+- JavaScript를 디버깅할 때 사용하는 도구가 있으면 설명해주세요.
+- 객체 안의 속성과 배열의 아이템을 순회할 때 사용하는 문법에 관해 설명해주세요.
+- mutable object와 immutable object에 관해 설명해주세요.
+  - JavaScript에서 immutable 객체의 예를 들어보세요.
+  - immutability의 장/단점은 무엇인가요?
+  - 자신의 코드에서 불변성(immutability를) 어떻게 달성할 수 있나요?
+- 동기방식과 비동기 방식 함수의 차이에 관해서 설명해주세요.
+- event loop이란 무엇인가요?
+  - call stack과 task queue에 관해 설명해주세요.
+- `function foo() {}`와 `var foo = function() {}`에서 foo 의 차이가 무엇인지 설명해보세요.
+- `let`, `var`, `const`의 차이점에 관해서 설명해주세요.
+
+## 테스트 관련 질문들:
+
+- test code를 작성하면서 개발하는 방식의 장점과 단점에 대해 설명해주세요.
+- test code를 테스트하는 툴을 사용해보신 경험이 있나요?
+- 유닛 테스트와 함수테스트의 차이점은 무엇인가요?
+- code style linting tool을 사용했을때 장점은 무엇인가요?
+
+## 성능 관련 질문들:
+
+- 성능관련 이슈들을 발견하기 위해서 사용하는 방법은 무엇인가요?
+- 웹사이트 scrolling 성능을 향상시키기 위한 몇가지 방법에 대해 설명해보세요.
+- 브라우저의 layout, painting, compositing에 대해 설명해보세요.
+
+## 네트워크 질문들:
+
+- 전통적으로, 웹사이트의 assets을 여러 도메인으로 서빙했을 때 장점은 무엇인가요?
+- URL로 접속했을 때 어떤 플로우로 화면에 웹사이트가 그려지는지 네트워크 관점에서 설명해주세요.
+- Long-Polling과 Websocket, Server-Sent Event에 대해 설명해주세요.
+- 다음 request header들에 대해 설명해주세요.
+  - Diff. between Expires, Date, Age and If-Modified-…
+  - Do Not Track
+  - Cache-Control
+  - Transfer-Encoding
+  - ETag
+  - X-Frame-Options
+- HTTP와 HTTPS에 대해 설명해주세요.
+- HTTP Method들에 대해 설명해주세요.
+
+## 코딩 질문:
+
+_질문: `foo`의 값은 무엇인가요?_
+
+```javascript
+var foo = 10 + "20";
+```
+
+_질문: 아래 코드의 결과값은 무엇인가요?_
+
+```javascript
+console.log(0.1 + 0.2 == 0.3);
+```
+
+_질문: 아래 코드가 동작하게 하기 위해선 어떻게 해야할까요?_
+
+```javascript
+add(2, 5); // 7
+add(2)(5); // 7
+```
+
+_질문: 아래 구문의 반환값은 무엇인가요?_
+
+```javascript
+"i'm a lasagna hog".split("").reverse().join("");
+```
+
+_Question: What is the value of `window.foo`?_
+_질문: `window.foo`의 값은 무엇인가요?_
+
+```javascript
+window.foo || (window.foo = "bar");
+```
+
+_질문: 아래 두 alert의 결과값은 무엇인가요?_
+
+```javascript
+var foo = "Hello";
+(function () {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
+```
+
+_질문: `foo.length`의 값은 무엇인가요?_
+
+```javascript
+var foo = [];
+foo.push(1);
+foo.push(2);
+```
+
+_질문: `foo.x`의 값은 무엇인가요?_
+
+```javascript
+var foo = { n: 1 };
+var bar = foo;
+foo.x = foo = { n: 2 };
+```
+
+_질문: 아래 코드의 출력값은 무엇인가요?_
+
+```javascript
+console.log("one");
+setTimeout(function () {
+  console.log("two");
+}, 0);
+console.log("three");
+```
+
+## 그 외 흥미로운 질문들
+
+- 최근에 수행했던 흥미로운 프로젝트는 무엇인가요?
+- 사용하는 개발 도구에서 마음에 드는 부분은 무엇인가요?
+- 프론트엔드 커뮤니티에서 당신에게 영감을 준 사람이 있다면 누구인가요?
+- 애완동물 관련 프로젝트를 해 보았나요? 해보았다면 어떤 종류의 프로젝트인가요?
+- IE에서 가장 좋아하는 기능은 무엇인가요?
+- 어떤 커피를 좋아하시나요?
+
+### References
+
+- https://h5bp.org/Front-end-Developer-Interview-Questions/translations/korean/
 
 ---
-
-## DB
-
-### MongoDB의 장단점
-
-* 장점
-
-1. 비동기 드라이버를 사용할 수 있다.
-   - 현재 JDBC의 경우 동기 드라이버만 존재해 블러킹 포인트가 된다.
-2. RDB와 개념이 유사해, 쿼리 변환기가 있을 만큼 개념적으로 어색하지 않다.
-   - 사용법도 마찬가지로 이질감이 없다.
-3. RDB에 비해 성능이 100배 이상 빠르다.
-   - 별도의 캐시 솔루션이 필요하지 않을 만큼 성능 문제에서 우월하다.
-4. 스키마 관리가 필요 없다.
-5. 이미 성숙기에 접어들어 운용, 개발, 유틸리티에 부족함이 없다.
-   - Cassandra, Couchbase, Mongodb의 경우 대규모 트래픽, 데이터 저장, fail-over, fault-tolerance에 다양한 대안이 마련 되어있는 상황이다.
-   - redis과 비교해봐도 충분히 안정권에 들어온 상태다.
-6. 샤드 추가가 간편하다.
-   - 다른 NOSQL처럼 리밸런싱은 불가능하지만, 그럼에도 적정 수치때 샤드를 추가해준다면 장점은 충분히 누릴 수 있다.
-
-* 단점
-
-1. 복잡한 쿼리를 사용할 수 없다.
-   - join을 사용할 수 없다.
-2. 메모리 사용량이 큰 편이다.
-   - 메모리 부족 시 퍼포먼스가 급락한다.
-3. 데이터 일관성이 보장되지 않는다.
-   - 다만, ACID 도입 베타 릴리즈 진행 중이다.
-     - http://it-developers.gigblog.net/2417
