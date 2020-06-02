@@ -6,6 +6,11 @@
 `Pull Request` 을 하시기 전에 [Wiki](https://github.com/KNU-CS-Study/Tech-Interview/wiki)를 읽어주시면 감사합니다.
 
 
+### :rainbow: Contributors
+| [Dong-wook94](https://github.com/Dong-wook94) | [Azderica](https://github.com/Azderica) | [kvlksgjp1](https://github.com/kvlksgjp1) | [jhye125](https://github.com/jhye125) |
+|:-------------------:|:-------------------:|:-------------------:|:-------------------:|
+
+
 
 ## :cloud: Contents
 
