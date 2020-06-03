@@ -1,15 +1,17 @@
 # Front-End 면접 질문
 
-## [HTML](./html/README.md)
+## :partly_sunny: Q&A
 
-## [CSS](./css/README.md)
+- [HTML](./html/README.md)
 
-## [JAVASCRIPT](./js/README.md) 
+- [CSS](./css/README.md)
 
-## [그 외](./other/README.md)
+- [JAVASCRIPT](./js/README.md) 
+
+- [Others](./other/README.md)
 
 ---
-## 일반적인 질문
+## :cloud: 일반적인 질문
 
 - 어제/이번 주에 무엇을 공부하셨나요?
 - 코딩을 할 때 당신을 들뜨게 하거나 흥미를 끄는 것들은 무엇은 가요?
