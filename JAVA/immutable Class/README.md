@@ -41,7 +41,7 @@ String Buffer 는 멀티 쓰레드환경에서 synchronized키워드가 가능�
 
 ## immutable 클래스를 만드는 방법
 
-클래스의 필드가 final익 setter가 없으면 된다.
+클래스의 필드가 final이거나 setter가 없으면 된다.
 
 * final이면 뭐 setter가 있으나 없으나 상관없지만 여튼 그렇다.
 
